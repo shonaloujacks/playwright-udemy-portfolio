@@ -20,4 +20,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Test Results
-          path: /home/sljackson/repos/playwright-course-udemy/test-results
+          path: /home/runner/work/shonaloujacks/playwright-udemy-portfolio/test-results/
