@@ -1,0 +1,1 @@
+{"files":["/home/sljackson/repos/playwright-course-udemy/pages/home.page.ts","/home/sljackson/repos/playwright-course-udemy/tests/home.spec.ts"],"stacks":[[30,[[0,23,21,"HomePage.navigate"],[1,10,20,""]]],[32,[[0,27,26,"HomePage.getNavLinksText"],[1,80,27,""]]]]}

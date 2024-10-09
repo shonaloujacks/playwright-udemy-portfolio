@@ -1,0 +1,31 @@
+{"version":7,"type":"context-options","origin":"testRunner","browserName":"","options":{},"platform":"linux","wallTime":1727964964936,"monotonicTime":331.368,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","startTime":340.682,"class":"Test","method":"step","apiName":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"hook@2","parentId":"hook@1","startTime":341.811,"class":"Test","method":"step","apiName":"beforeEach hook","params":{},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/home.spec.ts","line":8,"column":8}]}
+{"type":"before","callId":"fixture@3","parentId":"hook@2","startTime":352.758,"class":"Test","method":"step","apiName":"fixture: browser","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@4","parentId":"fixture@3","startTime":355.811,"class":"Test","method":"step","apiName":"browserType.launch","params":{"handleSIGINT":"false","headless":"false","tracesDir":"/home/sljackson/repos/playwright-course-udemy/test-results/.playwright-artifacts-9/traces","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@4","endTime":694.927,"attachments":[]}
+{"type":"after","callId":"fixture@3","endTime":695.728,"attachments":[]}
+{"type":"before","callId":"fixture@5","parentId":"hook@2","startTime":697.663,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@6","parentId":"fixture@5","startTime":704.715,"class":"Test","method":"step","apiName":"browser.newContext","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","deviceScaleFactor":"1","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","storageState":"Object","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.18 Safari/537.36","viewport":"Object","baseURL":"https://practice.sdetunicorns.com/","serviceWorkers":"allow","noDefaultViewport":"false","extraHTTPHeaders":"undefined","recordHar":"undefined","reducedMotion":"undefined","forcedColors":"undefined","clientCertificates":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@6","endTime":732.352,"attachments":[]}
+{"type":"after","callId":"fixture@5","endTime":740.304,"attachments":[]}
+{"type":"before","callId":"fixture@7","parentId":"hook@2","startTime":740.786,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@8","parentId":"fixture@7","startTime":743.026,"class":"Test","method":"step","apiName":"browserContext.newPage","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@8","endTime":1989.441,"attachments":[]}
+{"type":"after","callId":"fixture@7","endTime":1989.6979999999999,"attachments":[]}
+{"type":"before","callId":"pw:api@9","parentId":"hook@2","startTime":1994.798,"class":"Test","method":"step","apiName":"page.goto","params":{"url":"/","waitUntil":"load"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/pages/home.page.ts","line":23,"column":21,"function":"HomePage.navigate"}]}
+{"type":"after","callId":"pw:api@9","endTime":7320.272,"attachments":[]}
+{"type":"after","callId":"hook@2","endTime":7320.842,"attachments":[]}
+{"type":"after","callId":"hook@1","endTime":7323.696,"attachments":[]}
+{"type":"before","callId":"expect@10","startTime":7337.199,"class":"Test","method":"step","apiName":"expect.not.toHaveURL","params":{"expected":"Object"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/home.spec.ts","line":26,"column":28}]}
+{"type":"after","callId":"expect@10","endTime":7485.716,"attachments":[]}
+{"type":"before","callId":"pw:api@11","startTime":7487.944,"class":"Test","method":"step","apiName":"locator.click","params":{"selector":"#get-started","strict":"true"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/home.spec.ts","line":29,"column":34}]}
+{"type":"after","callId":"pw:api@11","endTime":8440.223,"attachments":[]}
+{"type":"before","callId":"expect@12","startTime":8445.75,"class":"Test","method":"step","apiName":"expect.toHaveURL","params":{"expected":"Object"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/home.spec.ts","line":32,"column":24}]}
+{"type":"after","callId":"expect@12","endTime":8513.402,"attachments":[]}
+{"type":"before","callId":"hook@13","startTime":8514.52,"class":"Test","method":"step","apiName":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@14","parentId":"hook@13","startTime":8516.958,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"after","callId":"fixture@14","endTime":8517.795,"attachments":[]}
+{"type":"before","callId":"fixture@15","parentId":"hook@13","startTime":8518.758,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"after","callId":"fixture@15","endTime":8519.185,"attachments":[]}
+{"type":"after","callId":"hook@13","endTime":9184.858,"attachments":[]}

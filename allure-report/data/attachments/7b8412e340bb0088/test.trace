@@ -1,0 +1,25 @@
+{"version":7,"type":"context-options","origin":"testRunner","browserName":"","options":{},"platform":"linux","wallTime":1727964964944,"monotonicTime":334.653,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","startTime":343.477,"class":"Test","method":"step","apiName":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@2","parentId":"hook@1","startTime":350.052,"class":"Test","method":"step","apiName":"fixture: browser","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@3","parentId":"fixture@2","startTime":351.571,"class":"Test","method":"step","apiName":"browserType.launch","params":{"handleSIGINT":"false","headless":"false","tracesDir":"/home/sljackson/repos/playwright-course-udemy/test-results/.playwright-artifacts-5/traces","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@3","endTime":602.16,"attachments":[]}
+{"type":"after","callId":"fixture@2","endTime":602.577,"attachments":[]}
+{"type":"before","callId":"fixture@4","parentId":"hook@1","startTime":603.799,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@5","parentId":"fixture@4","startTime":620.684,"class":"Test","method":"step","apiName":"browser.newContext","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","deviceScaleFactor":"1","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","storageState":"Object","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.18 Safari/537.36","viewport":"Object","baseURL":"https://practice.sdetunicorns.com/","serviceWorkers":"allow","noDefaultViewport":"false","extraHTTPHeaders":"undefined","recordHar":"undefined","reducedMotion":"undefined","forcedColors":"undefined","clientCertificates":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@5","endTime":650.982,"attachments":[]}
+{"type":"after","callId":"fixture@4","endTime":674.355,"attachments":[]}
+{"type":"before","callId":"fixture@6","parentId":"hook@1","startTime":675.024,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@7","parentId":"fixture@6","startTime":678.523,"class":"Test","method":"step","apiName":"browserContext.newPage","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@7","endTime":900.626,"attachments":[]}
+{"type":"after","callId":"fixture@6","endTime":900.822,"attachments":[]}
+{"type":"after","callId":"hook@1","endTime":900.99,"attachments":[]}
+{"type":"before","callId":"pw:api@8","startTime":904.894,"class":"Test","method":"step","apiName":"page.goto","params":{"url":"https://playwright.dev/","waitUntil":"load"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/example.spec.ts","line":4,"column":14}]}
+{"type":"after","callId":"pw:api@8","endTime":2973.7619999999997,"attachments":[]}
+{"type":"before","callId":"expect@9","startTime":2976.788,"class":"Test","method":"step","apiName":"expect.toHaveTitle","params":{"expected":"Object"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/example.spec.ts","line":7,"column":22}]}
+{"type":"after","callId":"expect@9","endTime":3038.894,"attachments":[]}
+{"type":"before","callId":"hook@10","startTime":3039.389,"class":"Test","method":"step","apiName":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@11","parentId":"hook@10","startTime":3040.212,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"after","callId":"fixture@11","endTime":3040.514,"attachments":[]}
+{"type":"before","callId":"fixture@12","parentId":"hook@10","startTime":3040.841,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"after","callId":"fixture@12","endTime":3040.929,"attachments":[]}
+{"type":"after","callId":"hook@10","endTime":4392.28,"attachments":[]}

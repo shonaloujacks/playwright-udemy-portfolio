@@ -1,0 +1,27 @@
+{"version":7,"type":"context-options","origin":"testRunner","browserName":"","options":{},"platform":"linux","wallTime":1727964964930,"monotonicTime":310.048,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","startTime":322.863,"class":"Test","method":"step","apiName":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"hook@2","parentId":"hook@1","startTime":324.181,"class":"Test","method":"step","apiName":"beforeEach hook","params":{},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/home.spec.ts","line":8,"column":8}]}
+{"type":"before","callId":"fixture@3","parentId":"hook@2","startTime":335.143,"class":"Test","method":"step","apiName":"fixture: browser","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@4","parentId":"fixture@3","startTime":338.05,"class":"Test","method":"step","apiName":"browserType.launch","params":{"handleSIGINT":"false","headless":"false","tracesDir":"/home/sljackson/repos/playwright-course-udemy/test-results/.playwright-artifacts-7/traces","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@4","endTime":599.763,"attachments":[]}
+{"type":"after","callId":"fixture@3","endTime":599.904,"attachments":[]}
+{"type":"before","callId":"fixture@5","parentId":"hook@2","startTime":600.99,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@6","parentId":"fixture@5","startTime":605.348,"class":"Test","method":"step","apiName":"browser.newContext","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","deviceScaleFactor":"1","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","storageState":"Object","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.18 Safari/537.36","viewport":"Object","baseURL":"https://practice.sdetunicorns.com/","serviceWorkers":"allow","noDefaultViewport":"false","extraHTTPHeaders":"undefined","recordHar":"undefined","reducedMotion":"undefined","forcedColors":"undefined","clientCertificates":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@6","endTime":629.585,"attachments":[]}
+{"type":"after","callId":"fixture@5","endTime":648.567,"attachments":[]}
+{"type":"before","callId":"fixture@7","parentId":"hook@2","startTime":650.565,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@8","parentId":"fixture@7","startTime":655.106,"class":"Test","method":"step","apiName":"browserContext.newPage","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@8","endTime":1959.309,"attachments":[]}
+{"type":"after","callId":"fixture@7","endTime":1959.5639999999999,"attachments":[]}
+{"type":"before","callId":"pw:api@9","parentId":"hook@2","startTime":1970.798,"class":"Test","method":"step","apiName":"page.goto","params":{"url":"/","waitUntil":"load"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/pages/home.page.ts","line":23,"column":21,"function":"HomePage.navigate"}]}
+{"type":"after","callId":"pw:api@9","endTime":7542.934,"attachments":[]}
+{"type":"after","callId":"hook@2","endTime":7544.899,"attachments":[]}
+{"type":"after","callId":"hook@1","endTime":7546.348,"attachments":[]}
+{"type":"before","callId":"expect@10","startTime":7558.971,"class":"Test","method":"step","apiName":"expect.toHaveTitle","params":{"expected":"Practice E-Commerce Site – SDET Unicorns"},"stack":[{"file":"/home/sljackson/repos/playwright-course-udemy/tests/home.spec.ts","line":14,"column":24}]}
+{"type":"after","callId":"expect@10","endTime":7803.932,"attachments":[]}
+{"type":"before","callId":"hook@11","startTime":7805.14,"class":"Test","method":"step","apiName":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@12","parentId":"hook@11","startTime":7810.036,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"after","callId":"fixture@12","endTime":7810.7119999999995,"attachments":[]}
+{"type":"before","callId":"fixture@13","parentId":"hook@11","startTime":7811.533,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"after","callId":"fixture@13","endTime":7811.774,"attachments":[]}
+{"type":"after","callId":"hook@11","endTime":8545.92,"attachments":[]}

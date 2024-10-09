@@ -1,0 +1,45 @@
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="action"
+
+wfu_ajax_action
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="wfu_uploader_nonce"
+
+8d7a270410
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="uploadedfile_1_index"
+
+0
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="uploadedfile_1_name"
+
+74657374696d6167652e6a7067
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="uploadedfile_1_size"
+
+95597
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="uniqueuploadid_1"
+
+6NW2a8UwMx
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="params_index"
+
+wqHnZKpqFeEDb26X
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="subdir_sel_index"
+
+-1
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="nofileupload_1"
+
+0
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="only_check"
+
+1
+------WebKitFormBoundaryuSEvcdB6FUthpIbC
+Content-Disposition: form-data; name="session_token"
+
+201017625866fea72e433df6.28848497
+------WebKitFormBoundaryuSEvcdB6FUthpIbC--
