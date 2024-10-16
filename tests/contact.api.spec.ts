@@ -1,5 +1,6 @@
 import { test, expect, APIRequestContext, APIResponse } from "@playwright/test";
 import ContactPage from "../pages/contact.page";
+import apiController from "../controller/api.controller";
 
 test.describe("Contact page", () => {
   let contactPage: ContactPage;
@@ -7,13 +8,18 @@ test.describe("Contact page", () => {
   let randomPerson: APIResponse;
 
   test.beforeAll(async ({ playwright }) => {
-    fakerApi = await playwright.request.newContext({
-      baseURL: "https://jsonplaceholder.typicode.com/",
-    });
+    await apiController.init();
 
     const response = await fakerApi.get("users");
     const responseBody = await response.json();
     randomPerson = responseBody[0];
+
+    const postResponse = await fakerApi.post("/users/1/todos", {
+      data: { title: "Learn Playwight", completed: "false" },
+    });
+
+    const postResponseBody = await postResponse.json();
+    console.log(postResponseBody);
   });
 
   test("Fill contact form and verify success message", async ({ page }) => {
