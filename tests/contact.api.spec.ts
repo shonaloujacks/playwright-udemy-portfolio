@@ -1,9 +1,21 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, APIRequestContext, APIResponse } from "@playwright/test";
 import ContactPage from "../pages/contact.page";
-import { faker } from "@faker-js/faker";
 
 test.describe("Contact page", () => {
   let contactPage: ContactPage;
+  let fakerApi: APIRequestContext;
+  let randomPerson: APIResponse;
+
+  test.beforeAll(async ({ playwright }) => {
+    fakerApi = await playwright.request.newContext({
+      baseURL: "https://jsonplaceholder.typicode.com/",
+    });
+
+    const response = await fakerApi.get("users");
+    const responseBody = await response.json();
+    randomPerson = responseBody[0];
+  });
+
   test("Fill contact form and verify success message", async ({ page }) => {
     contactPage = new ContactPage(page);
 
@@ -14,10 +26,10 @@ test.describe("Contact page", () => {
 
     // Fill out the input fields and submit
     await contactPage.submitForm(
-      faker.person.fullName(),
-      faker.internet.email(),
-      faker.phone.number(),
-      faker.lorem.paragraphs(2)
+      randomPerson["name"],
+      randomPerson["email"],
+      randomPerson["phone"],
+      randomPerson["website"]
     );
 
     // // Add a soft assertion
